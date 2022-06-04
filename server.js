@@ -8,5 +8,6 @@ connectDb()
 const port = 5000
 app.use ("/api/user", user)
 
+app.get('/', function(req, res){  res.end('Hello World');  });
 
 app.listen(port ,  console.log (`server is connected on port ${port}`))

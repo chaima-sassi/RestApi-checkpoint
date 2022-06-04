@@ -29,7 +29,7 @@ route.get('/getuser' , async(req , res)=> {
   
   
   } catch (error) {
-    console.log('could not get users')
+    console.log(error)
     
   }
       })
